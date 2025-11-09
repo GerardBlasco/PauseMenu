@@ -1,0 +1,34 @@
+{
+    "name": "PlayerUI",
+    "maps": [
+        {
+            "name": "PauseMenu",
+            "id": "7f2bc99f-50ab-4975-bb4c-d321c0b16c15",
+            "actions": [
+                {
+                    "name": "ToggleMenu",
+                    "type": "Button",
+                    "id": "b07bf270-0d1a-4f44-8604-4bfe0f5c25b8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c5acb064-5938-47d5-a590-9d733ee72cee",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
